@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-02-26T21:56:25.114748Z",
+  "generated_at": "2026-02-26T22:32:06.185357Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 466,
+      "duration_ms": 544,
       "error": null
     },
     {
@@ -14,39 +14,39 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 358,
+      "duration_ms": 346,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 355,
-      "duration_ms": 10795,
+      "item_count": 356,
+      "duration_ms": 10432,
       "error": null
     },
     {
       "site_id": "bestblogs",
       "site_name": "BestBlogs",
-      "ok": true,
-      "item_count": 83,
-      "duration_ms": 4386,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 252844,
+      "error": "HTTPSConnectionPool(host='www.bestblogs.dev', port=443): Max retries exceeded with url: /en/newsletter (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='www.bestblogs.dev', port=443): Read timed out. (read timeout=30)\"))"
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 2989,
-      "duration_ms": 1803,
+      "item_count": 3030,
+      "duration_ms": 1765,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 68,
-      "duration_ms": 492,
+      "item_count": 67,
+      "duration_ms": 537,
       "error": null
     },
     {
@@ -54,7 +54,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 188,
+      "duration_ms": 360,
       "error": null
     },
     {
@@ -62,7 +62,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1670,
+      "duration_ms": 1812,
       "error": null
     },
     {
@@ -70,15 +70,15 @@
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 382,
+      "duration_ms": 171,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 1401,
-      "duration_ms": 1756,
+      "item_count": 1394,
+      "duration_ms": 1292,
       "error": null
     },
     {
@@ -87,7 +87,7 @@
       "ok": true,
       "partial_failures": 0,
       "item_count": 1617,
-      "duration_ms": 2806,
+      "duration_ms": 2254,
       "error": null,
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -97,14 +97,15 @@
       "replaced_feed_count": 0
     }
   ],
-  "successful_sites": 10,
+  "successful_sites": 9,
   "failed_sites": [
+    "bestblogs",
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 7683,
-  "items_before_topic_filter": 14575,
-  "items_in_24h": 1547,
+  "fetched_raw_items": 7634,
+  "items_before_topic_filter": 14489,
+  "items_in_24h": 1517,
   "rss_opml": {
     "enabled": true,
     "path": "feeds/follow.opml",
@@ -124,7 +125,7 @@
         "effective_feed_url": "https://huggingface.co/blog/feed.xml",
         "ok": true,
         "item_count": 740,
-        "duration_ms": 621,
+        "duration_ms": 270,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -138,7 +139,7 @@
         "effective_feed_url": "https://www.infoq.cn/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 1571,
+        "duration_ms": 1388,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -152,7 +153,7 @@
         "effective_feed_url": "https://openai.com/news/rss.xml",
         "ok": true,
         "item_count": 857,
-        "duration_ms": 614,
+        "duration_ms": 596,
         "error": null,
         "skipped": false,
         "skip_reason": null,
